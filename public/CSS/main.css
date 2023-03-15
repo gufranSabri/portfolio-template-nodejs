@@ -3,27 +3,6 @@ body{
     font-family: 'Secular One', sans-serif;
     user-select: none;
 }
-@keyframes anim-lineUp {
-    0% {
-        opacity: 0;
-        transform: translateY(80%);
-        -webkit-transform-style: preserve-3d;
-    }
-    20% {
-        opacity: 0;
-        -webkit-transform-style: preserve-3d;
-    }
-    50% {
-        opacity: 1;
-        transform: translateY(0%);
-        -webkit-transform-style: preserve-3d;
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0%);
-        -webkit-transform-style: preserve-3d;
-    }
-}
 .lineUp {animation: 2s anim-lineUp ease-out;}
 
 .midbody{
@@ -51,4 +30,26 @@ textarea{
 }
 @media (max-width:600px){
     #smallName{display: none;}
+}
+
+@keyframes anim-lineUp {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+        -webkit-transform-style: preserve-3d;
+    }
+    20% {
+        opacity: 0;
+        -webkit-transform-style: preserve-3d;
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0%);
+        -webkit-transform-style: preserve-3d;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+        -webkit-transform-style: preserve-3d;
+    }
 }
